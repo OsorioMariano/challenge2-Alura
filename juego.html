@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fresca&family=Nova+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/ahorcado.ico" type="image/x-icon">
+    <title>Juego ahorcado</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.png" alt="Logo Alura">
+        <h1 class="titulo">Alura - Proyecto ONE</h1>
+    </header>
+    <main>
+        
+        <div class="pizarras">
+            <canvas class="errores"></canvas>
+            <canvas class="colgado"></canvas>
+            <img class="imagen-ganador invisible" src="img/hipo.png" alt="hipopotamo festejando">
+            <div class="devolucion">
+                <canvas class="mensaje"></canvas>
+                <button class="cambiar-palabra">Nueva palabra</button>            
+            </div>            
+            <canvas class="guiones"></canvas>
+        </div>
+        
+    </main>
+    <footer>        
+       <p class="alumno">Osorio Mariano</p>
+    </footer>    
+
+    
+    <script src="script/dibujarGuiones.js"></script>
+    <script src="script/ingresoLetra.js"></script>
+    <script src="script/jugar.js"></script>    
+    <script src="script/errores.js"></script>    
+    <script src="script/detener.js"></script>
+    
+
+    
+</body>
+</html>

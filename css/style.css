@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nova Mono', monospace;
+}
+
+body{
+    text-align: center;
+    min-width: 1450px; 
+}
+
+header{
+    background-color: lightcoral;
+    min-height: 72px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+    .logo:hover{
+        cursor: pointer;
+    }
+
+.titulo{
+    display: inline-block;
+    font-family: 'Fresca', sans-serif;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+main{
+    height:82vh;
+    min-height: 650px;
+    background-color: rgba(39, 194, 194, 0.615);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.nueva-palabra{
+    text-align:start;
+}
+
+.ingreso{
+    width: 500px;
+    height: 70px;
+    font-size: 2rem;
+    border: 2px solid black;
+    vertical-align: top;
+}
+
+    .ingreso::placeholder{
+        color:darkgray;
+        font-size: 1.6rem;
+    }
+
+.envio{
+    width: 200px;
+    display: inline-block;
+    margin-top: 0px;
+} 
+
+.cancelar{
+    width: 200px;
+    background-color: transparent;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.advertencia{
+    margin: 1.5rem 0;
+    width: 0.5 rem;
+    display: block;
+    transition: font-size 700ms;
+}
+
+button{
+    background-color: lightcoral;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    width: 400px;
+    height: 70px;
+    margin-top: 20px;
+    display: block;
+}
+
+    button:hover{
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    button:active{
+    font-size: 1.6rem;
+    font-weight: 900;
+    }
+
+.imagen-ganador{
+    width: 460px;
+}
+
+.devolucion{
+    width: 310px;
+    height: 454px;
+    display:inline-block;
+    vertical-align: top; 
+}
+
+.cambiar-palabra{
+    color:#475b5a;
+    width: 215px;
+    background-color: transparent;
+    border: none;
+    box-shadow: 0px 0px 20px 10px rgba(88, 91, 102, 0.2);
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.guiones{
+    margin-top: 2.5rem;
+}
+
+footer{
+    background-color: lightcoral;
+    width: 100%;
+    min-height: 58px;
+    height: 8vh;
+    text-align: right;
+    padding: 20px 0 10px;
+}
+
+.alumno{
+    font-family: 'Fresca', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: whitesmoke;
+    margin-right: 150px;
+}
+
+.invisible{
+    display: none;
+} 
+
+.error{
+    color: crimson;
+    font-size: 1.1em;
+    font-weight:500;
+}
+
+
+
